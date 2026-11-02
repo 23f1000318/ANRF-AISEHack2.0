@@ -91,7 +91,4 @@ Random splits can overestimate performance when closely related polymer structur
 - GPU availability changes runtime but does not guarantee better predictions.
 - No model can guarantee a private leaderboard score from public validation alone.
 
-## Short Description
-
-Scaffold-aware multitask polymer property prediction using RDKit molecular representations, cross-property physics features, molecular kernels, and guarded ensemble blending.
 
