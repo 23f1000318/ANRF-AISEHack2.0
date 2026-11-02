@@ -1,0 +1,22 @@
+# Competition data and generated outputs
+*.csv
+*.parquet
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.h5
+*.hdf5
+submission.csv
+
+# Local notebooks and runtime files
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Secrets and local environment files
+.env
+.env.*
+credentials.json
+
