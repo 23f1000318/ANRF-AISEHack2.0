@@ -4,6 +4,8 @@ This repository documents our work on both rounds of the ANRF AISEHack 2.0 polym
 
 The code was developed and investigated locally, then adapted and executed in Kaggle Notebooks for competition submissions. This repository is the project record; it is not intended to suggest that the experiments were authored exclusively inside Kaggle.
 
+This was a team competition, and the work was developed collaboratively. I thank Devam and Kaushal for their valuable contributions, including exploratory analysis, archive-data investigation, scaffold grouping ideas, and alternative modeling experiments that helped shape the final pipelines.
+
 ## Round 1: Egc and Tg
 
 Round 1 required predictions for two targets:
