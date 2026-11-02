@@ -50,7 +50,6 @@ The final Round 2 implementation uses:
 
 - `anrf-aisehack-2-0-polymer-property-prediction.ipynb`: Final Round 1 submission notebook for `Egc` and `Tg`.
 - `scaffold-cross-fitted-multi-property-ensemble-v1.ipynb`: Final Round 2 submission notebook for all seven polymer properties.
-- `round2_multitask_pipeline.py`: Equivalent source script for inspection, reproducibility, and local adaptation.
 - `ROUND2_PROJECT_REPORT.md`: Detailed Round 2 methodology, experiments, findings, limitations, and lessons learned.
 - `.gitignore`: Excludes competition datasets, generated submissions, caches, model artifacts, and secrets.
 
