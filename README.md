@@ -48,13 +48,13 @@ The final Round 2 implementation uses:
 
 ## Repository Contents
 
-- `round1_competition_pipeline.ipynb`: Primary Round 1 competition workflow for `Egc` and `Tg`.
-- `round2_multitask_pipeline.ipynb`: Competition notebook containing the complete Round 2 workflow, from feature extraction to `submission.csv` generation.
+- `anrf-aisehack-2-0-polymer-property-prediction.ipynb`: Final Round 1 submission notebook for `Egc` and `Tg`.
+- `scaffold-cross-fitted-multi-property-ensemble-v1.ipynb`: Final Round 2 submission notebook for all seven polymer properties.
 - `round2_multitask_pipeline.py`: Equivalent source script for inspection, reproducibility, and local adaptation.
 - `ROUND2_PROJECT_REPORT.md`: Detailed Round 2 methodology, experiments, findings, limitations, and lessons learned.
 - `.gitignore`: Excludes competition datasets, generated submissions, caches, model artifacts, and secrets.
 
-The repository includes the primary Round 1 competition workflow. Additional Round 1 experiments, including separate GNN, Tanimoto-kernel, and exact fragment-count-kernel notebooks, are not included because they were research variants rather than a confirmed final submission artifact.
+The repository contains the final notebook used for each competition round. Additional exploratory notebooks, including separate GNN, Tanimoto-kernel, and exact fragment-count-kernel experiments, are not included because they were research variants rather than final submissions.
 
 ## Data and Competition Compliance
 
@@ -71,7 +71,9 @@ Competition rules should always be checked before running the archive or auxilia
 
 ## Reproducing a Submission
 
-1. Open `round2_multitask_pipeline.ipynb` in a Kaggle Notebook.
+1. Open the final notebook for the relevant round in a Kaggle Notebook:
+   - Round 1: `anrf-aisehack-2-0-polymer-property-prediction.ipynb`
+   - Round 2: `scaffold-cross-fitted-multi-property-ensemble-v1.ipynb`
 2. Attach the official competition data and any organizer-provided auxiliary files.
 3. Enable a GPU accelerator for the PyTorch and XGBoost stages when available.
 4. Run the notebook from start to finish.
