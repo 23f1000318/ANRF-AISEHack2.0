@@ -48,12 +48,13 @@ The final Round 2 implementation uses:
 
 ## Repository Contents
 
+- `round1_competition_pipeline.ipynb`: Primary Round 1 competition workflow for `Egc` and `Tg`.
 - `round2_multitask_pipeline.ipynb`: Competition notebook containing the complete Round 2 workflow, from feature extraction to `submission.csv` generation.
 - `round2_multitask_pipeline.py`: Equivalent source script for inspection, reproducibility, and local adaptation.
 - `ROUND2_PROJECT_REPORT.md`: Detailed Round 2 methodology, experiments, findings, limitations, and lessons learned.
 - `.gitignore`: Excludes competition datasets, generated submissions, caches, model artifacts, and secrets.
 
-Round 1 exploratory notebooks and intermediate experiments are not included in this repository. Their approach and conclusions are summarized above so the repository reflects the full project progression without duplicating every experiment.
+The repository includes the primary Round 1 competition workflow. Additional Round 1 experiments, including separate GNN, Tanimoto-kernel, and exact fragment-count-kernel notebooks, are not included because they were research variants rather than a confirmed final submission artifact.
 
 ## Data and Competition Compliance
 
